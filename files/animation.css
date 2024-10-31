@@ -1,0 +1,53 @@
+
+
+.box {
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+    animation-name: ball;
+    animation-duration: 5s;
+    /* animation-delay: 0.5s; */
+    animation-iteration-count: infinite;
+    padding: 0;
+}
+
+.box:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    box-shadow: 0 0 20px blueviolet;
+}
+
+@keyframes ball {
+    0%{
+        transform: skewX() ;
+        background-color: brown;
+    }
+    20%{
+        transform: skewY(10deg);
+        background-color: blueviolet;
+        
+    }
+    40%{
+        /* transform: scale(1); */
+        background-color: black;
+        
+    }
+    75%{
+        /* transform: scale(1.5); */
+        background-color: chartreuse;
+        
+    }
+    100%{
+        /* transform: scale(2); */
+        background-color: cadetblue;
+        
+    }
+
+    from{
+        translate: 0;
+    }
+    to{
+        translate: 90vw;
+    }
+}
