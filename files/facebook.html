@@ -3,39 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>facebook login</title>
+    <link rel="stylesheet" href="../CSS/facebook.css" />
   </head>
   <body>
-    <div id="parent">
-      <form action="">
-        <div>
-          <h1>Create a new account</h1>
-          <h4>It's quick and easy</h4>
-        </div>
-        <hr />
-        <div>
+    <div class="parent">
+      <div>
+        <h1>facebook</h1>
+        <p>
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div class="container">
+        <form action="#">
           <div>
-            <input type="text" placeholder="First name" />
-            <input type="text" placeholder="Surname" />
+            <input type="email number" placeholder="Email address or phone number"> <br>
+            <input type="password" placeholder="Password"> <br>
+            <button  type="submit">Log in</button> <br>
+            <a class="a" href="#">Forgotten password?</a> <br> <hr>
+            <button type="submit" class="create">Create new account </button>
           </div>
-          <div>
-            <h3>Date of birth ? </h3>
-            <div>
-              <input type="number" placeholder="17" />
-              <input type="month" placeholder="Oct" />
-              <input type="year" placeholder="2024" />
-            </div>
-          </div>
-          <div>
-            <h3>Gender ? </h3>
-            <div>
-                <div><label for="">Female</label> <input type="radio"></div>
-                <div><label for="">Male</label> <input type="radio"></div>
-                <div><label for="">Custom</label> <input type="radio"></div>
-            </div>
-        </div>
-        </div>
-      </form>
+        </form>
+        <span><a id="create" href=""><b>Create a Page </b></a>for a celebrity, brand or business.</span>
+      </div>
     </div>
   </body>
 </html>

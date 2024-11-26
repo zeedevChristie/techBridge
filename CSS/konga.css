@@ -1,0 +1,84 @@
+body{
+   background-color: black;
+}
+
+#nav img {
+    width: 100%;
+}
+
+#navList {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: white;
+}
+
+#navList img {
+    width: 6rem;
+}
+
+#kongaSearch {
+    background-color: #ed017f;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+}
+
+#kongaSearch img {
+    width: 8rem;
+}
+
+#kongaSearch div {
+    font-size: rem;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.cart {
+    background-color: #33b27b;
+    padding: 1rem;
+}
+
+input {
+    width: 30rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+#categories {
+    background-color: #94004f;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+#carousel {
+    display: flex;
+    justify-content: space-between;
+     color: white;
+     padding: 1rem;
+}
+
+#carBox img {
+    width: 15rem;
+    height: 12.4rem;
+    padding-inline: 0.3rem;
+}
+
+#carolist {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.carolist {
+    background-color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+}
